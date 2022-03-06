@@ -1,0 +1,43 @@
+.child {
+  width: 200px;
+  height: 120px;
+  border: 1px solid black;
+}
+
+.flexcontainer {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  height: 160px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.grow .blue {
+  flex-grow: 3;
+}
+
+.shrink .blue {
+  flex-shrink: 3;
+}
+
+.flex-basis .blue {
+  flex-basis: 300px;
+  flex-shrink: 3;
+}
+
+.shorthand .blue {
+  /* flex-grow: 2;
+  flex-shrink: 3;
+  flex-basis: 300px; */
+  flex: 2 3 300px;
+}

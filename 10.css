@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+}
+.box {
+  width: 50%;
+  height: 200px;
+  background-color: aqua;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: purple;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: olive;
+  }
+  .box {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: rosybrown;
+  }
+  .box {
+    width: 50%;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: wheat;
+  }
+}
